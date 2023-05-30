@@ -111,7 +111,8 @@ def start_game():
         print("YOU WON!!!!!!")
 
 
-start_game()
+if __name__ == "__main__":
+    start_game()
 
 # https://pokeapi.co/api/v2/pokemon/pokemon_name/ where the pokemon
 # https://pokeapi.co/api/v2/move/14/ move is the move derived from the pokemon
